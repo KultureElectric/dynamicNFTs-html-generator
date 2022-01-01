@@ -1,0 +1,36 @@
+{
+    "manifest": "arweave/paths",
+    "version": "0.1.0",
+    "paths": {
+        "8.png": {
+            "id": "EGUJ_2ubFsMOHh0cmeOcXe_qJz-3M54kexovs-9qfMQ"
+        },
+        "9.png": {
+            "id": "_rvVTMSu8ZjPMxYp5pwc_UyC-hTTTH8NDqEjW471_hk"
+        },
+        "4.png": {
+            "id": "b53PTnyasxbwL6PW6RWsfFZ9ewQyCasYcPEp6jqQtus"
+        },
+        "5.png": {
+            "id": "-qdtVMxEVI-hZ6dhKB7RGA-ubQO60ZeisNajieUI4iI"
+        },
+        "7.png": {
+            "id": "0nJRdBnMh4OpZz1iB5_aQM9a3zRPUwtNmUEgaDQNGzY"
+        },
+        "6.png": {
+            "id": "jUXfL2dwnFklFcP_MAdmfhEWAJg8qV0qLTV6z1LijVw"
+        },
+        "2.png": {
+            "id": "gioOLczYQKbS_9cLWFhniJwfFnht7KMEj1f9k_maH7s"
+        },
+        "3.png": {
+            "id": "QZUAGfox1CwVQnOctpCDrFUG6XXz_33daBVuI9ZRLag"
+        },
+        "1.png": {
+            "id": "AiTQfjATvYpmxLYcp3pNtAmK-AK7WF3KNRWK_jaWyKI"
+        },
+        "0.png": {
+            "id": "H4hYT-648pPATnyl89RgzZkezeFzvMnuqSy19k0DBL4"
+        }
+    }
+}

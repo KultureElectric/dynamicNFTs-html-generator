@@ -1,0 +1,19 @@
+{
+  "name": "htmlgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "create-html": "^4.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}

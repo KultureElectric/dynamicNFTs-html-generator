@@ -1,0 +1,76 @@
+{
+  "name": "OceanGuardian #56",
+  "symbol": "OG",
+  "description": "OceanGuardians NFT is a next-gen NFT collection of 6,666 unique OceanGuardians that together populate the prime surf spots all around the world.",
+  "seller_fee_basis_points": 666,
+  "image": "text.html",
+  "animation_url": "text.html",
+  "external_url": "OceanGuardians.sol",
+  "attributes": [
+    {
+      "trait_type": "Gesture",
+      "value": "Shaka"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Shoulder Tatoo"
+    },
+    {
+      "trait_type": "Wrist",
+      "value": "Leather Strap"
+    },
+    {
+      "trait_type": "Swimwear",
+      "value": "Fullsuit2"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Straw"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Beard",
+      "value": "Twirl"
+    },
+    {
+      "trait_type": "Decor",
+      "value": "Sunnies1"
+    }
+  ],
+  "dynamic_attributes": [
+    {
+      "trait_type": "Location",
+      "value": "Portugal"
+    },
+    {
+      "trait_type": "Wave",
+      "value": "Large"
+    },
+    {
+      "trait_type": "Board",
+      "value": " Base2"
+    }
+  ],
+  "collection": {
+    "name": "OceanGuardians Genesis",
+    "family": "OceanGuardians"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "text.html",
+        "type": "text/html"
+      }
+    ],
+    "category": "html",
+    "creators": [
+      {
+        "address": "FntXUJoFNvXTbLXj5NfDgikMqSGjQ6JhhX3ia694i1fD",
+        "share": 100
+      }
+    ]
+  }
+}
