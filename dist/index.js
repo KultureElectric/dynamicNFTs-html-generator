@@ -11,9 +11,6 @@ const generateHTML = () => {
         const script = `
         <script type="text/javascript">
             async function draw() {
-                let location;
-                let wave;
-                let board;
 
                 const locations = {
                     Indonesia: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/61mBfJROOL-eNU3TUmEtzQ011hmvfhGGys89JeNQpl0',
@@ -22,7 +19,7 @@ const generateHTML = () => {
                     CapeTown: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/19A038dxNEQu_XomlX5R9eEjO2Yv-rp5crSq9xUcGLI',
                     GoldCoast: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/Eua7FolEzBdujuO57jII901HdRO57r6Ge0QHxGlcTHo',
                     Portugal: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/tZGB4CcQBOmieJQIuANn3kt9W6MxZUIGPfOsb_-9GX8',
-                    Biarritz: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/PiDO2X1mvZdc2WoZDgJZbA6_r5Qc0wTQfh6XAKdJfMQ',
+                    FranceBiarritz: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/PiDO2X1mvZdc2WoZDgJZbA6_r5Qc0wTQfh6XAKdJfMQ',
                     CostaRica: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/l1oXa6DyLHIjxpJ1TXDh4xOuwr64ApXwSlQwukYj1BI',
                     Brazil: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/zc6PbxdDM_bsb6GWLPUb7JNHiwhJkoV75r15jsAJm-M',
                     Alaska: 'https://5ywn6daenz6poefpjkgs3c2vdgtzsk2vevam6ap7mvc4443iwdfq.arweave.net/ZJRr2uf6RgSLli3nQeeUl7nhfC5JWVaLSl3o_Xxukms'
@@ -53,19 +50,16 @@ const generateHTML = () => {
                 };
 
                 try {
-                    const dynamicLayers = await fetch('https://us-central1-oceanguardians-f14c3.cloudfunctions.net/getLayers/${index + 1}', {
+                    const response = await fetch('https://api2.aleph.im/api/v0/aggregates/2BMddnLuE54MZdvbjGoy8RiTdYaZ1rYeVFn1aTcsybvR.json?keys=OceanGuardian${index + 1}', {
                     method : "GET",
                     cache: 'no-cache'
                     }).then(response => response.json());
-                    dynamicLayers.forEach(l => {
-                    if(l.trait_type === 'Location') {location = l.value};
-                    if(l.trait_type === 'Board') {board = l.value};
-                    if(l.trait_type === 'Wave') {wave = l.value};
-                    });
+                    
+                    const dynamicLayers = response.data['OceanGuardian${index + 1}'];
 
-                    document.getElementById('location').src = locations[location.replace(' ', '')];
-                    document.getElementById('wave').src = waves[wave.replace(' ', '')];
-                    document.getElementById('board').src = boards[board.replace(' ', '')];
+                    document.getElementById('location').src = locations[dynamicLayers.Location.replace(' ', '')];
+                    document.getElementById('wave').src = waves[dynamicLayers.Wave.replace(' ', '')];
+                    document.getElementById('board').src = boards[dynamicLayers.Board.replace(' ', '')];
 
                 } catch (e) {
                     console.log(e);
