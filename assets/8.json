@@ -8,62 +8,32 @@
   "external_url": "OceanGuardians.sol",
   "attributes": [
     {
-      "trait_type": "Gesture",
-      "value": "Thumbs Up"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Calf Tatoo"
-    },
-    {
       "trait_type": "Leash",
       "value": "Yes"
     },
     {
       "trait_type": "Wrist",
-      "value": "Spliff"
+      "value": "Beads"
     },
     {
       "trait_type": "Swimwear",
-      "value": "Shorts5"
+      "value": "Baggies3"
     },
     {
       "trait_type": "Shirt",
-      "value": "Tee Light Grey"
-    },
-    {
-      "trait_type": "Neck",
-      "value": "Dogtags"
+      "value": "Tee White"
     },
     {
       "trait_type": "Head",
-      "value": "Straw"
+      "value": "Cap3"
     },
     {
       "trait_type": "Face",
-      "value": "Oooh"
+      "value": "Stoked"
     },
     {
       "trait_type": "Beard",
-      "value": "Porntash"
-    },
-    {
-      "trait_type": "Decor",
-      "value": "Sunnies1"
-    }
-  ],
-  "dynamic_attributes": [
-    {
-      "trait_type": "Location",
-      "value": "Portugal"
-    },
-    {
-      "trait_type": "Wave",
-      "value": "Large"
-    },
-    {
-      "trait_type": "Board",
-      "value": " HiTech"
+      "value": "Chinny"
     }
   ],
   "collection": {

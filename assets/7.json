@@ -9,11 +9,15 @@
   "attributes": [
     {
       "trait_type": "Gesture",
-      "value": "Thumbs Up"
+      "value": "Peace"
     },
     {
       "trait_type": "Skin",
-      "value": "Hairy Chest"
+      "value": "Calf Tatoo"
+    },
+    {
+      "trait_type": "Leash",
+      "value": "Yes"
     },
     {
       "trait_type": "Wrist",
@@ -21,41 +25,23 @@
     },
     {
       "trait_type": "Swimwear",
-      "value": "Shorts5"
+      "value": "Shorts3"
     },
     {
       "trait_type": "Shirt",
-      "value": "Vest Yellow"
-    },
-    {
-      "trait_type": "Neck",
-      "value": "Beads"
+      "value": "Tee Light Grey"
     },
     {
       "trait_type": "Head",
-      "value": "Cap5"
+      "value": "Mohawk"
     },
     {
       "trait_type": "Face",
-      "value": "Happy"
+      "value": "Chilled"
     },
     {
-      "trait_type": "Decor",
-      "value": "Nosering"
-    }
-  ],
-  "dynamic_attributes": [
-    {
-      "trait_type": "Location",
-      "value": "Alaska"
-    },
-    {
-      "trait_type": "Wave",
-      "value": "Medium"
-    },
-    {
-      "trait_type": "Board",
-      "value": " SlickWood"
+      "trait_type": "Beard",
+      "value": "Hipster"
     }
   ],
   "collection": {

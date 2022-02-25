@@ -9,49 +9,39 @@
   "attributes": [
     {
       "trait_type": "Gesture",
-      "value": "Rock On"
+      "value": "Thumbs Up"
     },
     {
       "trait_type": "Skin",
       "value": "Hairy Chest"
     },
     {
+      "trait_type": "Leash",
+      "value": "Yes"
+    },
+    {
       "trait_type": "Wrist",
-      "value": "Watch"
+      "value": "Punk Strap"
     },
     {
       "trait_type": "Swimwear",
-      "value": "Baggies12"
+      "value": "Fullsuit"
     },
     {
-      "trait_type": "Shirt",
-      "value": "Tee Grey"
+      "trait_type": "Neck",
+      "value": "Dogtags"
     },
     {
       "trait_type": "Head",
-      "value": "Cap5"
+      "value": "Cap3"
     },
     {
       "trait_type": "Face",
-      "value": "Happy"
+      "value": "Stoked"
     },
     {
-      "trait_type": "Beard",
-      "value": "Short_Boxed"
-    }
-  ],
-  "dynamic_attributes": [
-    {
-      "trait_type": "Location",
-      "value": "Durban"
-    },
-    {
-      "trait_type": "Wave",
-      "value": "Small"
-    },
-    {
-      "trait_type": "Board",
-      "value": " Fish3"
+      "trait_type": "Decor",
+      "value": "Sunnies1"
     }
   ],
   "collection": {

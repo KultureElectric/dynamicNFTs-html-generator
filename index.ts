@@ -1,4 +1,4 @@
-import fs from 'fs';
+import { writeFile } from 'fs';
 import createHTML from 'create-html';
 
 import data from './imagesOnly-manifest.json';
@@ -70,17 +70,29 @@ const generateHTML = () => {
         const html = createHTML({
             title: `OceanGuardian #${index + 1}`,
             scriptAsync: true,
-            css: 'dynamicNFT.css',
+            // css: 'dynamicNFT.css',
             body: `
+                <style>
+                    img {
+                        position: fixed;
+                        height:100%;
+                        width:100%;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                    }
+                </style>
+
                 <section>
-                    <img style="z-index: 3;" src='https://arweave.net/${data.paths[`${index}.png`].id}' />
+                    <img style="z-index: 3;" src='https://arweave.net/${data.paths[`${index}.png`]?.id}' />
                     <img style="z-index: 2;" id='board' />
                     <img style="z-index: 1;" id='wave' />
                     <img style="z-index: 0;" id='location' />
                 </section>
                 ${script}`
         });
-        fs.writeFile(`dynamicFiles/${index}.html`, html, function (err) {
+        writeFile(`dynamicFiles/${index}.html`, html, function (err) {
             if (err) console.log(err)
           })
     }

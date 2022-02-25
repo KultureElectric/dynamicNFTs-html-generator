@@ -9,41 +9,35 @@
   "attributes": [
     {
       "trait_type": "Gesture",
-      "value": "Peace"
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Hairy Chest"
     },
     {
       "trait_type": "Wrist",
-      "value": "Leather Strap"
+      "value": "Spliff"
     },
     {
       "trait_type": "Swimwear",
-      "value": "Baggies11"
+      "value": "Shorts6"
     },
     {
       "trait_type": "Shirt",
-      "value": "Open Afro"
+      "value": "Open Blue"
     },
     {
       "trait_type": "Head",
-      "value": "Sun4"
+      "value": "ManBun"
     },
     {
       "trait_type": "Face",
-      "value": "Chilled"
-    }
-  ],
-  "dynamic_attributes": [
-    {
-      "trait_type": "Location",
-      "value": "Durban"
+      "value": "Stoked"
     },
     {
-      "trait_type": "Wave",
-      "value": "Medium"
-    },
-    {
-      "trait_type": "Board",
-      "value": " Fish6"
+      "trait_type": "Beard",
+      "value": "Goatee"
     }
   ],
   "collection": {

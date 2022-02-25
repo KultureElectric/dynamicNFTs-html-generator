@@ -8,16 +8,8 @@
   "external_url": "OceanGuardians.sol",
   "attributes": [
     {
-      "trait_type": "Gesture",
-      "value": "Thumbs Up"
-    },
-    {
       "trait_type": "Skin",
-      "value": "Chest Tatoo"
-    },
-    {
-      "trait_type": "Leash",
-      "value": "Yes"
+      "value": "Calf Tatoo"
     },
     {
       "trait_type": "Wrist",
@@ -25,45 +17,27 @@
     },
     {
       "trait_type": "Swimwear",
-      "value": "Baggies9"
+      "value": "Shorts3"
     },
     {
       "trait_type": "Shirt",
-      "value": "Vest White"
+      "value": "Tee Maroon"
     },
     {
       "trait_type": "Neck",
-      "value": "Beads"
+      "value": "Goldchain"
     },
     {
       "trait_type": "Head",
-      "value": "Long"
+      "value": "Straw"
     },
     {
       "trait_type": "Face",
-      "value": "Chilled"
+      "value": "Happy"
     },
     {
       "trait_type": "Beard",
-      "value": "Porntash"
-    },
-    {
-      "trait_type": "Decor",
-      "value": "Earplug"
-    }
-  ],
-  "dynamic_attributes": [
-    {
-      "trait_type": "Location",
-      "value": "France Biarritz"
-    },
-    {
-      "trait_type": "Wave",
-      "value": "Medium"
-    },
-    {
-      "trait_type": "Board",
-      "value": " Fish4"
+      "value": "Short_Boxed"
     }
   ],
   "collection": {

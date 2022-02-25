@@ -3,10 +3,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs_1 = __importDefault(require("fs"));
+const fs_1 = require("fs");
 const create_html_1 = __importDefault(require("create-html"));
 const imagesOnly_manifest_json_1 = __importDefault(require("./imagesOnly-manifest.json"));
 const generateHTML = () => {
+    var _a;
     for (let index = 0; index < Object.keys(imagesOnly_manifest_json_1.default.paths).length; index++) {
         const script = `
         <script type="text/javascript">
@@ -73,14 +74,14 @@ const generateHTML = () => {
             css: 'dynamicNFT.css',
             body: `
                 <section>
-                    <img style="z-index: 3;" src='https://arweave.net/${imagesOnly_manifest_json_1.default.paths[`${index}.png`].id}' />
+                    <img style="z-index: 3;" src='https://arweave.net/${(_a = imagesOnly_manifest_json_1.default.paths[`${index}.png`]) === null || _a === void 0 ? void 0 : _a.id}' />
                     <img style="z-index: 2;" id='board' />
                     <img style="z-index: 1;" id='wave' />
                     <img style="z-index: 0;" id='location' />
                 </section>
                 ${script}`
         });
-        fs_1.default.writeFile(`dynamicFiles/${index}.html`, html, function (err) {
+        (0, fs_1.writeFile)(`dynamicFiles/${index}.html`, html, function (err) {
             if (err)
                 console.log(err);
         });

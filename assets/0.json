@@ -9,53 +9,35 @@
   "attributes": [
     {
       "trait_type": "Gesture",
-      "value": "Shaka"
+      "value": "Peace"
     },
     {
       "trait_type": "Skin",
       "value": "Hairy Chest"
     },
     {
-      "trait_type": "Leash",
-      "value": "Yes"
-    },
-    {
-      "trait_type": "Wrist",
-      "value": "Punk Strap"
-    },
-    {
       "trait_type": "Swimwear",
-      "value": "Baggies7"
+      "value": "Fullsuit2"
     },
     {
-      "trait_type": "Shirt",
-      "value": "Open Hawaiian"
+      "trait_type": "Neck",
+      "value": "Dogtags"
     },
     {
       "trait_type": "Head",
-      "value": "Sun2"
+      "value": "Cap4"
     },
     {
       "trait_type": "Face",
-      "value": "Chilled"
+      "value": "Stoked"
     },
     {
       "trait_type": "Beard",
-      "value": "Hipster"
-    }
-  ],
-  "dynamic_attributes": [
-    {
-      "trait_type": "Location",
-      "value": "Costa Rica"
+      "value": "Handlebars"
     },
     {
-      "trait_type": "Wave",
-      "value": "Medium"
-    },
-    {
-      "trait_type": "Board",
-      "value": " HiTech"
+      "trait_type": "Decor",
+      "value": "Freckles"
     }
   ],
   "collection": {
