@@ -1,0 +1,69 @@
+{
+    "manifest": "arweave/paths",
+    "version": "0.1.0",
+    "paths": {
+        "8.png": {
+            "id": "NvCH0XAbuXChmpH8nSmHN0-ufN1xoRq77R4cd21ZPpQ"
+        },
+        "9.png": {
+            "id": "lCvtxfAsPWNZWzFUW9okoL_Ha4Tm9O4tbyqz-yA1JWw"
+        },
+        "14.png": {
+            "id": "bNqPkRBkayRNV6TxoH8RxcokJdiv8bHNpsus0G6SKto"
+        },
+        "15.png": {
+            "id": "gUat7NWBMhvQ5K6xlrRVQ6bcIsmGcovg68eEpc_SGM8"
+        },
+        "17.png": {
+            "id": "XReqQ63TxjzU_9jAN_rCFYnmdzrQvP7AFVjoDBs4zZg"
+        },
+        "16.png": {
+            "id": "vo-NSq28FjgDC5K1uHLXo-VZoV7biLNV90kQIFX42DU"
+        },
+        "12.png": {
+            "id": "sjO3ManvCg8HX-Lq00poJ4Pz94hKlbSJ8ZA3-0XIyf8"
+        },
+        "13.png": {
+            "id": "jQ19QVn1wPwmBWvP1bc3TUAzgWkXizq3vCbEFDRhA-Y"
+        },
+        "11.png": {
+            "id": "zZ0nzU48Q3PmH9Xc5juZpbuC9zY0UaLM0lpsPbV0aIM"
+        },
+        "10.png": {
+            "id": "SWUpv-3Bs7sHs8NM2esIyrw7loJuKIjZcKHjBimmWyo"
+        },
+        "18.png": {
+            "id": "AT09SrfGTa0n1d-XgMYIISMXsDhXaWPWhOVYnAzqA8I"
+        },
+        "19.png": {
+            "id": "NPyrtWaErtjZ23x0nv5618mJIMmbo_Ef5BNhXm1xBK0"
+        },
+        "4.png": {
+            "id": "qGwA_e-aDLU5eX-cC1wbcvyOqEyR9oCpXtf_eujvcLA"
+        },
+        "5.png": {
+            "id": "_l2oxSo5CUge6kvPBNYgfh2x6koHkj72miH_e62-yqk"
+        },
+        "7.png": {
+            "id": "QrHzKBK0Ou8emg8qoBWvdkJRCW_-1juSVohq4FnBjek"
+        },
+        "6.png": {
+            "id": "2clJDOEkrfMqqDQXPi2V9SrMaVBwtTVRdKAMVh-rX7k"
+        },
+        "2.png": {
+            "id": "TxEjSrzRui2WEg9h9GcfL3K5Wqa3x6I49u_KUmXR1Ac"
+        },
+        "3.png": {
+            "id": "8UR92Bdgtvl0CDt6hxJ7sUeqEyJEV7swqLAI-ntbbsE"
+        },
+        "1.png": {
+            "id": "cg_xPjXt8E3oxjE6OM_BOcO-YjHNhfsNU3g-Yr3aTMM"
+        },
+        "0.png": {
+            "id": "TUgOdhhRcktyJhO2Okq7k7478H1A31YGxMk0WAgXpSU"
+        }
+    },
+    "index": {
+        "path": "surfers-manifest.json"
+    }
+}
